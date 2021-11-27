@@ -30,6 +30,10 @@ io.on('connection', (socket) => {
   })
 })
 
-server.listen(3001, () => {
+server.listen('https://chawput-chat-react-socketio.herokuapp.com/', () => {
   console.log('SERVER RUNNING')
+})
+
+app.get('/', (req, res) => {
+  res.send('Welcome to server');
 })
