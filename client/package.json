@@ -36,5 +36,11 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "netlify-cli": "^8.0.3"
+  },
+  "engines": {
+    "node": "17.1.0"
   }
 }
